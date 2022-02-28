@@ -11,10 +11,10 @@ Simple scifi can be acquired here: [Free](https://chippwalters.gumroad.com/l/sim
 This pack contains 10 copies of a geometry node network that creates window-like patterns. When using it feel free to delete copies for less overall variation or add more duplicates for more. Just remember that if you duplicate them you need to select a new seed for the copy. Options are:
 
 * **Seed:** Create randomization. Make sure this is different for each layer
-* **Window Length X:** larger values make the pattern wider. In the future I will implement an option for expanding them in the 'Y' direction
-* **Material:** This option does nothing within simple scifi and is mostly for testing.
+* **Window Length X:** larger values make the pattern wider. This value is subject to randomization so the windows will not necessarily reach this length.
+* **Window Length Y:** Height of the pattern. No randomization.
 * **Window Fill Probability:** This allows a random selection of windows to be 'skipped' simulating some of the lights being turned off.
 * **Window Size:** controls how large individual windows are at default 1:1:1 scale.
 * **Window Cluster Size:** controls the overall pattern size. Selecting smaller values will make everything smaller and reduce the space between windows, while making it larger will space everything out.
 * **Circular Windows:** switched the window geometry from squares to circles.
-
+* **Material:** This option does nothing within simple scifi and is mostly for testing.
