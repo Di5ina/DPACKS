@@ -5,6 +5,8 @@ Repository for my free dpacks. These packs can be used with either the free or p
 open the simple scifi scene.  Go to File > Append, browse to one of these packs, and import the collection.
 Simple scifi can be acquired here: [Free](https://chippwalters.gumroad.com/l/simplescififree), [Pro](https://chippwalters.gumroad.com/l/simplescifi)
 
+Note these packs are under development and will change often.
+
 
 ## Packs
 ### Dots-P-GeoGenerative-01
@@ -18,3 +20,10 @@ This pack contains 10 copies of a geometry node network that creates window-like
 * **Window Cluster Size:** controls the overall pattern size. Selecting smaller values will make everything smaller and reduce the space between windows, while making it larger will space everything out.
 * **Circular Windows:** switched the window geometry from squares to circles.
 * **Material:** This option does nothing within simple scifi and is mostly for testing.
+
+### Dots-P-GeoGenerative-02
+This contains a single copy of the geometry node from Dots-P-GeoGenerative-01 as well as two new nodes still under development
+
+First is a node that generate windows in a concentric ring pattern.
+
+Second is a single ring with windows exploding outward from the center or inward towards the center.
