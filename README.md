@@ -42,6 +42,9 @@ Starts with a ring and projects lines of windows outward and inward. Effect is s
 Setting one or both dimensions to 1 can be used to make lines or single points. Otherwise will produce a brick of windows.
 
 
+### Accumulated Line
+Dot positions are calculated cumulatively with both a multiplier and a constant addition option for both translation and rotation. In the simplist form this can be used to create straight lines. It can also be used to create exponential offset between subsequent dots, simple arcs, and spiral patterns. Currently only works facing in the z+ direction.
+
 ## Composite Nodes
 The nodes have been made stackable so multiple versions of the same modifier or different modifiers can be applied. If you're using a mesh with real geometry use the "ClearGeometry" node.
 
@@ -51,7 +54,7 @@ This is an example of a single object with the circle explosion, concentric ngon
 # Overall TODO
 
 * create youtube video with a simple overview on how these nodes can be used
-* create sweeping lines, arcs
+* create sweeping lines, arcs. Sort of implemented with the new accumulate line insert
 * Add support for an anti fill set to black
 * Port the generators to decal inserts for manual detailing with kitops
 * Port my dot's generator that produces tileable output.
